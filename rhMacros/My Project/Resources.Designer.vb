@@ -159,5 +159,59 @@ Namespace My.Resources
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Something went wrong with the connection between Repetier Host and the plugin..
+        '''</summary>
+        Friend ReadOnly Property MacrosUi_Connect_Error_Message() As String
+            Get
+                Return ResourceManager.GetString("MacrosUi_Connect_Error_Message", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Error connecting.
+        '''</summary>
+        Friend ReadOnly Property MacrosUi_Connect_Error_Title() As String
+            Get
+                Return ResourceManager.GetString("MacrosUi_Connect_Error_Title", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to The rhMacros plugin path is not present in RepetierHost..
+        '''</summary>
+        Friend ReadOnly Property MacrosUi_Connect_PathNotFound_Message() As String
+            Get
+                Return ResourceManager.GetString("MacrosUi_Connect_PathNotFound_Message", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Path not found.
+        '''</summary>
+        Friend ReadOnly Property MacrosUi_Connect_PathNotFound_Title() As String
+            Get
+                Return ResourceManager.GetString("MacrosUi_Connect_PathNotFound_Title", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Something went wrong with loading the macro definition file..
+        '''</summary>
+        Friend ReadOnly Property MacrosUi_LoadMacroSets_Error_Message() As String
+            Get
+                Return ResourceManager.GetString("MacrosUi_LoadMacroSets_Error_Message", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Error loading definitions.
+        '''</summary>
+        Friend ReadOnly Property MacrosUi_LoadMacroSets_Error_title() As String
+            Get
+                Return ResourceManager.GetString("MacrosUi_LoadMacroSets_Error_title", resourceCulture)
+            End Get
+        End Property
     End Module
 End Namespace

@@ -1,0 +1,2 @@
+rhMacros is a plugin for Repetier Host to add user defined macro's into the UI.
+Any command your 3D printer/CNC can handle can be programmed with the provided editor and saved as a macro.
