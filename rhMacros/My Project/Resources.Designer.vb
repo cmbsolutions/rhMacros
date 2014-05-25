@@ -161,6 +161,79 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property help() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("help", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to adding.
+        '''</summary>
+        Friend ReadOnly Property MacrosUI_Command_Add() As String
+            Get
+                Return ResourceManager.GetString("MacrosUI_Command_Add", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to deleting.
+        '''</summary>
+        Friend ReadOnly Property MacrosUI_Command_Delete() As String
+            Get
+                Return ResourceManager.GetString("MacrosUI_Command_Delete", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Are you sure you want to delete this macro?.
+        '''</summary>
+        Friend ReadOnly Property MacrosUI_Command_Delete_Question() As String
+            Get
+                Return ResourceManager.GetString("MacrosUI_Command_Delete_Question", resourceCulture)
+            End Get
+        End Property
+
+        '''<summary>
+        '''  Looks up a localized string similar to editing.
+        '''</summary>
+        Friend ReadOnly Property MacrosUI_Command_Edit() As String
+            Get
+                Return ResourceManager.GetString("MacrosUI_Command_Edit", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to executing.
+        '''</summary>
+        Friend ReadOnly Property MacrosUI_Command_Execute() As String
+            Get
+                Return ResourceManager.GetString("MacrosUI_Command_Execute", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Something went wrong while {0} a macro..
+        '''</summary>
+        Friend ReadOnly Property MacrosUI_CommandErrorMessage_Template() As String
+            Get
+                Return ResourceManager.GetString("MacrosUI_CommandErrorMessage_Template", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Error {0} macro.
+        '''</summary>
+        Friend ReadOnly Property MacrosUI_CommandErrorTitle_Template() As String
+            Get
+                Return ResourceManager.GetString("MacrosUI_CommandErrorTitle_Template", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Something went wrong with the connection between Repetier Host and the plugin..
         '''</summary>
         Friend ReadOnly Property MacrosUi_Connect_Error_Message() As String
@@ -197,6 +270,15 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Macro confirmation message.
+        '''</summary>
+        Friend ReadOnly Property MacrosUi_ExecuteMacro_Macro_confirmation_message_Title() As String
+            Get
+                Return ResourceManager.GetString("MacrosUi_ExecuteMacro_Macro_confirmation_message_Title", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Something went wrong with loading the macro definition file..
         '''</summary>
         Friend ReadOnly Property MacrosUi_LoadMacroSets_Error_Message() As String
@@ -208,9 +290,37 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Error loading definitions.
         '''</summary>
-        Friend ReadOnly Property MacrosUi_LoadMacroSets_Error_title() As String
+        Friend ReadOnly Property MacrosUi_LoadMacroSets_Error_Title() As String
             Get
-                Return ResourceManager.GetString("MacrosUi_LoadMacroSets_Error_title", resourceCulture)
+                Return ResourceManager.GetString("MacrosUi_LoadMacroSets_Error_Title", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Something went wrong with showing the macrobuttons..
+        '''</summary>
+        Friend ReadOnly Property MacrosUi_ShowMacroButtons_Error_Message() As String
+            Get
+                Return ResourceManager.GetString("MacrosUi_ShowMacroButtons_Error_Message", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Error showing macrobuttons.
+        '''</summary>
+        Friend ReadOnly Property MacrosUi_ShowMacroButtons_Error_Title() As String
+            Get
+                Return ResourceManager.GetString("MacrosUi_ShowMacroButtons_Error_Title", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property MenuBarBG() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("MenuBarBG", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
     End Module

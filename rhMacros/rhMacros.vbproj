@@ -54,6 +54,9 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutocompleteMenu">
+      <HintPath>..\..\..\Libraries\AutocompleteMenu.dll</HintPath>
+    </Reference>
     <Reference Include="RepetierHostExtender">
       <HintPath>..\RepetierHost\RepetierHostExtender.dll</HintPath>
       <Private>False</Private>
@@ -79,7 +82,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Macros.vb" />
+    <Compile Include="MacroPropertiesDialog.Designer.vb">
+      <DependentUpon>MacroPropertiesDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MacroPropertiesDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MacrosCollection.vb" />
     <Compile Include="MacrosUi.Designer.vb">
       <DependentUpon>MacrosUi.vb</DependentUpon>
     </Compile>
@@ -102,8 +111,12 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="rhMacros.vb" />
+    <Compile Include="RhMacrosFileHandler.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="MacroPropertiesDialog.resx">
+      <DependentUpon>MacroPropertiesDialog.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MacrosUi.resx">
       <DependentUpon>MacrosUi.vb</DependentUpon>
     </EmbeddedResource>
@@ -159,7 +172,8 @@
     <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ComponentDescription.txt" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\MenuBarBG.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

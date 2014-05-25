@@ -117,89 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="MacrosUi_LoadMacroSets_Error_Title" xml:space="preserve">
-    <value>Error loading definitions</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="MenuBarBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MenuBarBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MacrosUi_Connect_Error_Message" xml:space="preserve">
-    <value>Something went wrong with the connection between Repetier Host and the plugin.</value>
-  </data>
-  <data name="folder_brick" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\folder_brick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brick_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brick_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brick_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brick_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brick_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brick_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bricks" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bricks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brick_go" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brick_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MacrosUi_Connect_PathNotFound_Message" xml:space="preserve">
-    <value>The rhMacros plugin path is not present in RepetierHost.</value>
-  </data>
-  <data name="brick" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MacrosUi_Connect_PathNotFound_Title" xml:space="preserve">
-    <value>Path not found</value>
-  </data>
-  <data name="MacrosUi_Connect_Error_Title" xml:space="preserve">
-    <value>Error connecting</value>
-  </data>
-  <data name="MacrosUi_LoadMacroSets_Error_Message" xml:space="preserve">
-    <value>Something went wrong with loading the macro definition file.</value>
-  </data>
-  <data name="disk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\disk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brick_link" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brick_link.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brick_error" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brick_error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MacrosUi_ShowMacroButtons_Error_Message" xml:space="preserve">
-    <value>Something went wrong with showing the macrobuttons.</value>
-  </data>
-  <data name="MacrosUi_ShowMacroButtons_Error_Title" xml:space="preserve">
-    <value>Error showing macrobuttons</value>
-  </data>
-  <data name="MacrosUi_ExecuteMacro_Macro_confirmation_message_Title" xml:space="preserve">
-    <value>Macro confirmation message</value>
-  </data>
-  <data name="MacrosUI_CommandErrorMessage_Template" xml:space="preserve">
-    <value>Something went wrong while {0} a macro.</value>
-  </data>
-  <data name="MacrosUI_CommandErrorTitle_Template" xml:space="preserve">
-    <value>Error {0} macro</value>
-  </data>
-  <data name="MacrosUI_Command_Add" xml:space="preserve">
-    <value>adding</value>
-  </data>
-  <data name="MacrosUI_Command_Delete" xml:space="preserve">
-    <value>deleting</value>
-  </data>
-  <data name="MacrosUI_Command_Delete_Question" xml:space="preserve">
-    <value>Are you sure you want to delete this macro?</value>
-  </data>
-  <data name="MacrosUI_Command_Edit" xml:space="preserve">
-    <value>editing</value>
-  </data>
-  <data name="MacrosUI_Command_Execute" xml:space="preserve">
-    <value>executing</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAAAABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AAD///8AaW5sTm1ycOVobGr8Z2xq/GZrafxmamj8ZWpo/GVpZ/xkaGb8Y2hm/Gxwbv6MkI70wMPCka6x
+        sCr///8A////AHJ3dObs7ez/////////////////////////////////+vv6/5SXlf+rr67/8/T0/5+i
+        oPl0eHZvYGBgA////wBxdnP//v7+/+/y8f/w8vH/8fPy//L08//z9fT/8PLx/5WZl/+usbD/8/T0/7W3
+        tv91enf+ZHZ1D////wD///8AdXp4//7+/v/s7+7/7O/u/9fa2f+coJ//lJeW/5CVk/+ws7L/8/T0/7e5
+        uP+ZnZv/cHVy/G1ycAj///8A////AHp/ff/+/v7/6ezq/9PY1v+KkI7/1tjX/+7v7v/g4uL/9PT0/7m7
+        uv+YnJr/+vv6/3R5d/xyd3QI////AP///wB/hIL//f79/+Xp5/+XnJn/0dPT/8PGxf+hpaP/5+no/+nq
+        6v+VmZf/5Ojm//7+/v95fnz8dnx5CP///wD///8AhImH//3+/f/l6eb/l5ya/6eqqf+eoqD/z9PQ/52g
+        n//29vb/l5yb/+Ln5f/+/v7/fYKA/HuAfgj///8A////AIiOi//9/v3/5Onm/8fLyf+mq6n/29/c/6Km
+        pf/Lzcz/5ujn/6Clo//d4+D//v7+/4KHhfyAhYMI////AP///wCNk5D//f79/+Tp5//h5uT/4OXj/6mt
+        q/+ztrX/3N3c/5WZl//Fy8j/2N/c//7+/v+GjIn8hYqICP///wD///8AkpiV//3+/f/m6ej/4ufl/+Hl
+        4/++wsH/jpOR/6Glo//Dysf/09rW/9Pb1//+/v7/i5GO/IqPjQj///8A////AJedmv/+/v7/6ezq/+Xp
+        5//i5+X/4OXi/9zi3//Z39z/1dzZ/83U0P/Jz8v/19nZ/5CWk/mOlJID////AP///wCbop///v7+/+3w
+        7v/p7ev/5uro/+Pn5f/f5OL/2+He/7/Ewf+prav/sLGx/9bY1/6Ynpux////AP///wD///8AoKak//7+
+        /v/x8/L/7fDu/+nt6//l6uf/4ebk/93j4P/Cx8X///////39/f+mrKn1mJ+cPP///wD///8A////AKWr
+        qf/+/v7/9Pb1//Dy8P/s7+7/6Ozq/+Tp5v/j5+X/2NnY//3+/f+6wL32n6Widf///wD///8A////AP//
+        /wCssq/k7O/t//7+/v/+/v7//v7+//7+/v/+/v7/+fr6/+Xn5v+wtbP2pKuoef///wD///8A////AP//
+        /wD///8ArrWySbC3tOKttLH/rLOw/6yzsP+rsq//q7Gu/6uyr/arsq+yqa+sRP///wD///8A////AP//
+        /wD///8AwAMAAIADAACAAwAAgAMAAIADAACAAwAAgAMAAIADAACAAwAAgAMAAIADAACAAwAAgAcAAIAP
+        AACAHwAAwD8AAA==
+</value>
   </data>
 </root>
