@@ -35,12 +35,21 @@ Public Class Macro
     <Browsable(False), EditorBrowsable(EditorBrowsableState.Never)> _
     Public Property Name() As String
 
+    <Description("The text of the macrobutton.")> _
     Public Property Text() As String
+
+    <Description("The sequence of GCodes that will be executed with this macro."), Editor(GetType(PropertyEditors.ScriptPropertyEditor), GetType(Drawing.Design.UITypeEditor))> _
     Public Property Script() As String
+
+    <Description("The tooltiptext of the macrobutton. This will be displayed when you hover the macrobutton.")> _
     Public Property ToolTip() As String = "Test"
+    <Description("Turn a confirmationmessage on or off.")> _
     Public Property ShowConfirm() As Boolean
+    <Description("The confirmationmessage to be displayed when the macrobutton is pressed.")> _
     Public Property ConfirmMessage() As String
+    <Description("The buttons to be displayed when the confirmationmessage is displayed.")> _
     Public Property ConfirmButtons() As MessageBoxButtons
+    <Description("The confirmbutton that will execute the script. This should be a button that is displayed on the confirmationmessage.")> _
     Public Property ConfirmButton() As DialogResult
 
     ' ignore the color types in xml, use the converters below for that
@@ -120,8 +129,8 @@ Public Class Macro
             Dim bound As RectangleF = e.ClipRectangle
             ' Deflate by -1
             bound.Inflate(-1, -1)
-            ' Define a brush with the user backcolor and set Alpha channel to half
-            Dim b As New SolidBrush(Color.FromArgb(125, BackColor))
+            ' Define a brush with the user backcolor and set Alpha channel to 100
+            Dim b As New SolidBrush(Color.FromArgb(100, BackColor))
             ' Fill the button with the user color, 
             g.FillRectangle(b, bound)
 

@@ -209,7 +209,7 @@ Public Class MacrosUi
 
     Private Sub ExecuteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExecuteToolStripMenuItem.Click
         Try
-            Dim b As Button = TryCast(sender, Button)
+            Dim b As Button = TryCast(DirectCast(DirectCast(sender, ToolStripMenuItem).Owner, ContextMenuStrip).SourceControl, Button)
 
             If b IsNot Nothing Then b.PerformClick()
 
@@ -220,7 +220,7 @@ Public Class MacrosUi
 
     Private Sub RemoveToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RemoveToolStripMenuItem.Click
         Try
-            Dim b As Button = TryCast(sender, Button)
+            Dim b As Button = TryCast(DirectCast(DirectCast(sender, ToolStripMenuItem).Owner, ContextMenuStrip).SourceControl, Button)
 
             If b IsNot Nothing Then
                 If MessageBox.Show(MacrosUI_Command_Delete_Question, Format(MacrosUI_CommandErrorTitle_Template, MacrosUI_Command_Delete), MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = DialogResult.Yes Then
@@ -247,5 +247,10 @@ Public Class MacrosUi
             SaveMacros()
             ShowMacroButtons()
         End If
+    End Sub
+
+    Private Sub tsbSaveMacro_Click(sender As Object, e As EventArgs) Handles tsbSaveMacro.Click
+        SaveMacros()
+        MessageBox.Show("Macro's saved")
     End Sub
 End Class

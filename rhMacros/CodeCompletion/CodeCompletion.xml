@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CodeCompletions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entries>
+    <Entry>
+      <Code>G0</Code>
+      <Description>See G1</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>G1</Code>
+      <Description>Coordinated movement</Description>
+      <Parameters>Xnnn Ynnn Znnn Ennn Fnnn</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>G2</Code>
+      <Description>ClockWise Arc</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>G3</Code>
+      <Description>CounterClockWise Arc</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>G4</Code>
+      <Description>Dwell S&lt;seconds&gt; or P&lt;milliseconds&gt;</Description>
+      <Parameters>S&lt;seconds&gt; Or P&lt;milliseconds&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>G10</Code>
+      <Description>retract filament according to settings of M207</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>G11</Code>
+      <Description>retract recover filament according to settings of M208</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>G28</Code>
+      <Description>Home all Axis</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>G29</Code>
+      <Description>Detailed ZProbe, probes the bed at 3 or more points.  Will fail if you haven't homed yet.</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>G30</Code>
+      <Description>Single Z Probe, probes bed at current XY location.</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>G90</Code>
+      <Description>Use Absolute Coordinates</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>G91</Code>
+      <Description>Use Relative Coordinates</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>G92</Code>
+      <Description>Set current position to coordinates given</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M0</Code>
+      <Description>Unconditional stop. Wait for user to press a button on the LCD (Only if ULTRA_LCD is enabled)</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M1</Code>
+      <Description>Same as M0</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M17</Code>
+      <Description>Enable/Power all stepper motors</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M18</Code>
+      <Description>Disable all stepper motors; same as M84</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M20</Code>
+      <Description>List SD card</Description>
+      <IconId>1</IconId>
+    </Entry>
+    <Entry>
+      <Code>M21</Code>
+      <Description>Init SD card</Description>
+      <IconId>1</IconId>
+    </Entry>
+    <Entry>
+      <Code>M22</Code>
+      <Description>Release SD card</Description>
+      <IconId>1</IconId>
+    </Entry>
+    <Entry>
+      <Code>M23</Code>
+      <Description>Select SD file</Description>
+      <Parameters>filename.g</Parameters>
+      <IconId>1</IconId>
+    </Entry>
+    <Entry>
+      <Code>M24</Code>
+      <Description>Start/resume SD print</Description>
+      <IconId>1</IconId>
+    </Entry>
+    <Entry>
+      <Code>M25</Code>
+      <Description>Pause SD print</Description>
+      <IconId>1</IconId>
+    </Entry>
+    <Entry>
+      <Code>M26</Code>
+      <Description>Set SD position in bytes</Description>
+      <Parameters>S&lt;bytePosition&gt;</Parameters>
+      <IconId>1</IconId>
+    </Entry>
+    <Entry>
+      <Code>M27</Code>
+      <Description>Report SD print status</Description>
+      <IconId>1</IconId>
+    </Entry>
+    <Entry>
+      <Code>M28</Code>
+      <Description>Start SD write</Description>
+      <Parameters>filename.g</Parameters>
+      <IconId>1</IconId>
+    </Entry>
+    <Entry>
+      <Code>M29</Code>
+      <Description>Stop SD write</Description>
+      <IconId>1</IconId>
+    </Entry>
+    <Entry>
+      <Code>M30</Code>
+      <Description>Delete file from SD</Description>
+      <Parameters>filename.g</Parameters>
+      <IconId>1</IconId>
+    </Entry>
+    <Entry>
+      <Code>M31</Code>
+      <Description>Output time since last M109 or SD card start to serial</Description>
+      <IconId>1</IconId>
+    </Entry>
+    <Entry>
+      <Code>M32</Code>
+      <Description>Select file and start SD print</Description>
+      <Parameters>S&lt;bytePosition&gt; !filename# Or P !filename#</Parameters>
+      <IconId>1</IconId>
+    </Entry>
+    <Entry>
+      <Code>M42</Code>
+      <Description>Change pin status via gcode</Description>
+      <Parameters>P&lt;pinnumber&gt; S&lt;value&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M80</Code>
+      <Description>Turn on Power Supply</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M81</Code>
+      <Description>Turn off Power Supply</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M82</Code>
+      <Description>Set E codes absolute (default)</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M83</Code>
+      <Description>Set E codes relative while in Absolute Coordinates (G90) mode</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M84</Code>
+      <Description>Disable steppers until next move, or specify inactivity timeout.</Description>
+      <Parameters>S&lt;seconds&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M85</Code>
+      <Description>Set inactivity shutdown timer. To disable set zero</Description>
+      <Parameters>S&lt;seconds&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M92</Code>
+      <Description>Set axis_steps_per_unit </Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M104</Code>
+      <Description>Set extruder target temp</Description>
+      <Parameters>S&lt;temp&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M105</Code>
+      <Description>Read current temp</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M106</Code>
+      <Description>Fan on</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M107</Code>
+      <Description>Fan off</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M109 </Code>
+      <Description>Wait for extruder current temp to reach target temp.</Description>
+      <Parameters>S&lt;temp&gt; Or R&lt;temp&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M114</Code>
+      <Description>Output current position to serial port</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M115</Code>
+      <Description>Capabilities string</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M117</Code>
+      <Description>display message</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M119</Code>
+      <Description>Output Endstop status to serial port</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M140</Code>
+      <Description>Set bed target temp</Description>
+      <Parameters>S&lt;temp&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M190 </Code>
+      <Description>Wait for bed current temp to reach target temp.</Description>
+      <Parameters>S&lt;temp&gt; Or R&lt;temp&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M218</Code>
+      <Description>set hotend offset</Description>
+      <Parameters>T&lt;extruder_number&gt; X&lt;offset_on_X&gt; Y&lt;offset_on_Y&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M220</Code>
+      <Description>set speed factor override percentage</Description>
+      <Parameters>S&lt;factor in percent&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M221</Code>
+      <Description>set extrude factor override percentage</Description>
+      <Parameters>S&lt;factor in percent&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M226</Code>
+      <Description>Wait until the specified pin reaches the state required</Description>
+      <Parameters>P&lt;pinnumber&gt; S&lt;pinstate&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M240</Code>
+      <Description>Trigger a camera to take a photograph</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M250</Code>
+      <Description>Set LCD contrast</Description>
+      <Parameters>C&lt;0..63&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M280</Code>
+      <Description>set servo position absolute.</Description>
+      <Parameters>P&lt;servoIndex&gt; S&lt;angle or ms&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M300</Code>
+      <Description>Play beep sound</Description>
+      <Parameters>S&lt;freq&gt; P&lt;ms&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M301</Code>
+      <Description>Set PID parameters P I and D</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M302</Code>
+      <Description>Allow cold extrudes.</Description>
+      <Parameters>S&lt;min temp&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M303</Code>
+      <Description>PID relay autotune</Description>
+      <Parameters>S&lt;temp&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M304</Code>
+      <Description>Set bed PID parameters P I and D</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M400</Code>
+      <Description>Finish all moves</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M401</Code>
+      <Description>Lower Zprobe</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M402</Code>
+      <Description>Raise Zprobe</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M500</Code>
+      <Description>stores parameters in EEPROM</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M501</Code>
+      <Description>reads parameters from EEPROM</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M502</Code>
+      <Description>reverts to the default "factory settings".</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M503</Code>
+      <Description>print the current settings</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M540</Code>
+      <Description>enable or disable the stop SD card print on endstop hit</Description>
+      <Parameters>S&lt;0..1&gt;</Parameters>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M907</Code>
+      <Description>Set digital trimpot motor current using axis codes.</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M908</Code>
+      <Description>Control digital trimpot directly.</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M350</Code>
+      <Description>Set microstepping mode.</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M351</Code>
+      <Description>Toggle MS1 MS2 pins directly.</Description>
+      <IconId>0</IconId>
+    </Entry>
+    <Entry>
+      <Code>M999</Code>
+      <Description>Restart after being stopped by error</Description>
+      <IconId>0</IconId>
+    </Entry>
+  </Entries>
+</CodeCompletions>

@@ -141,6 +141,30 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+        '''&lt;CodeCompletions xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        '''  &lt;Entries&gt;
+        '''    &lt;Entry&gt;
+        '''      &lt;Code&gt;G0&lt;/Code&gt;
+        '''      &lt;Description&gt;See G1&lt;/Description&gt;
+        '''      &lt;IconId&gt;0&lt;/IconId&gt;
+        '''    &lt;/Entry&gt;
+        '''    &lt;Entry&gt;
+        '''      &lt;Code&gt;G1&lt;/Code&gt;
+        '''      &lt;Description&gt;Coordinated movement&lt;/Description&gt;
+        '''      &lt;Parameters&gt;Xnnn Ynnn Znnn Ennn Fnnn&lt;/Parameters&gt;
+        '''      &lt;IconId&gt;0&lt;/IconId&gt;
+        '''    &lt;/Entry&gt;
+        '''    &lt;Entry&gt;
+        '''      &lt;Code&gt;G2&lt;/Code&gt;        ''' [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property CodeCompletion() As String
+            Get
+                Return ResourceManager.GetString("CodeCompletion", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property disk() As System.Drawing.Bitmap
@@ -196,7 +220,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("MacrosUI_Command_Delete_Question", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to editing.
         '''</summary>

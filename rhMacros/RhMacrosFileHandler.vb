@@ -1,5 +1,7 @@
 ﻿Imports System.IO
 Imports System.Xml.Serialization
+Imports System.Xml
+Imports System.Text
 
 Public Class RhMacrosFileHandler(Of T)
     Public Shared Function SaveObject(data As T, f As FileInfo) As Boolean
@@ -19,6 +21,20 @@ Public Class RhMacrosFileHandler(Of T)
     Public Shared Function LoadObject(ByRef data As T, f As FileInfo) As Boolean
         Try
             Using sr As New StreamReader(f.FullName)
+                Dim xr As New XmlSerializer(data.GetType)
+                data = CType(xr.Deserialize(sr), T)
+                sr.Close()
+            End Using
+
+            Return True
+        Catch ex As Exception
+            Throw
+        End Try
+    End Function
+
+    Public Shared Function LoadObject(ByRef data As T, f As String) As Boolean
+        Try
+            Using sr As New StreamReader(New MemoryStream(Encoding.UTF8.GetBytes(f)))
                 Dim xr As New XmlSerializer(data.GetType)
                 data = CType(xr.Deserialize(sr), T)
                 sr.Close()

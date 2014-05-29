@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xsd:element name="CodeCompletions">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Entries">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element maxOccurs="unbounded" name="Entry">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Code" type="xsd:string" />
+                    <xsd:element name="Description" type="xsd:string" />
+                    <xsd:element minOccurs="0" name="Parameters" type="xsd:string" />
+                    <xsd:element name="IconId" type="xsd:unsignedByte" />
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xs:schema>

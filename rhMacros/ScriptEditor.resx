@@ -117,92 +117,65 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="MacrosUi_LoadMacroSets_Error_Title" xml:space="preserve">
-    <value>Error loading definitions</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="MenuBarBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MenuBarBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MacrosUi_Connect_Error_Message" xml:space="preserve">
-    <value>Something went wrong with the connection between Repetier Host and the plugin.</value>
-  </data>
-  <data name="folder_brick" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\folder_brick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brick_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brick_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brick_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brick_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brick_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brick_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bricks" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bricks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brick_go" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brick_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MacrosUi_Connect_PathNotFound_Message" xml:space="preserve">
-    <value>The rhMacros plugin path is not present in RepetierHost.</value>
-  </data>
-  <data name="brick" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MacrosUi_Connect_PathNotFound_Title" xml:space="preserve">
-    <value>Path not found</value>
-  </data>
-  <data name="MacrosUi_Connect_Error_Title" xml:space="preserve">
-    <value>Error connecting</value>
-  </data>
-  <data name="MacrosUi_LoadMacroSets_Error_Message" xml:space="preserve">
-    <value>Something went wrong with loading the macro definition file.</value>
-  </data>
-  <data name="disk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\disk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brick_link" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brick_link.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brick_error" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brick_error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MacrosUi_ShowMacroButtons_Error_Message" xml:space="preserve">
-    <value>Something went wrong with showing the macrobuttons.</value>
-  </data>
-  <data name="MacrosUi_ShowMacroButtons_Error_Title" xml:space="preserve">
-    <value>Error showing macrobuttons</value>
-  </data>
-  <data name="MacrosUi_ExecuteMacro_Macro_confirmation_message_Title" xml:space="preserve">
-    <value>Macro confirmation message</value>
-  </data>
-  <data name="MacrosUI_CommandErrorMessage_Template" xml:space="preserve">
-    <value>Something went wrong while {0} a macro.</value>
-  </data>
-  <data name="MacrosUI_CommandErrorTitle_Template" xml:space="preserve">
-    <value>Error {0} macro</value>
-  </data>
-  <data name="MacrosUI_Command_Add" xml:space="preserve">
-    <value>adding</value>
-  </data>
-  <data name="MacrosUI_Command_Delete" xml:space="preserve">
-    <value>deleting</value>
-  </data>
-  <data name="MacrosUI_Command_Delete_Question" xml:space="preserve">
-    <value>Are you sure you want to delete this macro?</value>
-  </data>
-  <data name="MacrosUI_Command_Edit" xml:space="preserve">
-    <value>editing</value>
-  </data>
-  <data name="MacrosUI_Command_Execute" xml:space="preserve">
-    <value>executing</value>
-  </data>
-  <data name="CodeCompletion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\CodeCompletion\CodeCompletion.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <metadata name="AutocompleteMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>184, 17</value>
+  </metadata>
+  <data name="ImageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAE
+        CwAAAk1TRnQBSQFMAgEBAgEAASgBAAEoAQABEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABEAMAAQEBAAEgBgABEFoAAYMBUwE3Af8BdgFMATIB/wFzAUgBMAH/AXIBRwEuAf8BcAFFAS0B/wFi
+        ATsBJwH/AWMBOgElAf8BbAE/ASoB/wFrAT8BKQH/AWwBPwEpAf8BawFAASoB/wGIAU4BMwH/iAABsAGn
+        AZYB/wG+AbcBrgH/Ab4BtgGuAf8BugGzAagB/wG6AbEBpgH/AbgBrwGkAf8BuAGvAaMB/wG3Aa4BogH/
+        AboBrwGkAf8BvQGxAaYB/wG+AbIBqQH/Ab4BswGpAf8BvgG1AaoB/wHBAbUBrwH/Ab8BtQGuAf8BswGp
+        AZoB/wgAAaIBaAFFAf8BnQFkAUIB/wGaAWEBQAH/AZcBXAE9Af8BkwFZAToB/wGSAVYBOAH/AY4BUwE2
+        Af8BigFNATEB/wGIAUsBMAH/AYoBTAEwAf8BjQFSATYB/wGQAVQBNwH/iAABxAG6AagB/wHXAcsBvgH/
+        AdcBywG+Af8B1wHLAb4B/wHXAcsBvgH/AdcBywG+Af8B1wHLAb4B/wHXAcsBvgH/AdcBywG+Af8B1wHL
+        Ab4B/wHXAcsBvgH/AdcBywG+Af8B1wHLAb4B/wHXAcsBvgH/AdcBywG+Af8BzAHBAa4B/wgAAaMBbAFH
+        Af8BnQFmAUMB/wGaAWIBPwH/AZ4BcwFQAf8BpgF8AVkB/wGrAYUBYQH/AbABiAFkAf8BuwGXAXQB/wG/
+        AZoBeQH/AckBqQGKAf8BhwFJAS0B/wGQAVQBNwH/iAABxQG4AaYB/wP2Af8D9iH/Ae4B8QHzDf8BzQHC
+        Aa0B/wgAAaUBbQFJAf8BoQFqAUYB/wGaAWEBPgH/AaoBiwFtAf8BogF1AVIB/wG+AZ8BhwH/Ae0B5QHf
+        Af8B0AG2AaMB/wH9Af4C/wHwAekB4QH/AbMBjgF4Af8BjgFQATQB/4gAAcQBuAGjCf8BHQEjASoB/wE6
+        AT0BQAH/AVYBWQFcAf8BdwF6AXwB/wGUAZcBmQH/AZ8BogGkAf8BmQGcAZ8B/wHPAdMB1QH/AfkC+g3/
+        Ac4BwwGtAf8IAAGnAXABSwH/AaIBbAFIAf8BmwFgATkB/wHdAeQB6QH/AccBvQG2Af8BsQGQAXIB/wH0
+        Ae8B6wH/AcIBogGIAf8D+gH/AcQBoQGDAf8B8AHqAeYB/wGKAUsBLgH/iAABxgG6AaUK/wETARYC/wIP
+        Af8B/gINAf8BxwELAQwB/wHMAgoB/wG3AgoB/wGGAgoB/wGKAQcBBgH/AWsCBQH/AT8BBwEKCf8B0AHE
+        Aa4B/wgAAaoBdAFOAf8BpQFvAUoB/wGbAWEBOwH/Ad4B4gHmAf8D1QH/Ad8B4AHhAf8B8gHrAeUB/wG/
+        AZ4BgwX/AfAB6QHjAf8BvgGeAYwB/wGPAVEBNAH/iAABxgG5AaQK/wFhAXYC/wFhAXEC/wFiAXMB/wHj
+        AWgBdAH/AegBagF2Af8B3gFsAXgB/wHCAXABeQH/AcYBcAF5Af8BtwFxAXkB/wGgAXkBggn/AcwBwAGq
+        Af8IAAGsAXcBUAH/AaYBcgFLAf8BngFkAT0B/wHgAeUB6AH/A9gB/wPVAf8D0AH/Ac8B0QHSAf8BwwG2
+        AaoB/wHHAagBjAH/AYsBTgEwAf8BkwFWATkB/4gAAcMBtgGhCf8BLAH/AUYB/wEsAf8BQQH/AS4B/wFC
+        Af8BNAHbAUMB/wE0AeEBRAH/ATcB0gFFAf8BOwGqAUUB/wE6AbABRQH/AT0BmwFFAf8BQgF5AUwJ/wHJ
+        Ab4BqQH/CAABrQF4AVEB/wGqAXUBTwH/AaEBZwE/Af8B5AHoAesB/wPbAf8D2QH/A9YB/wPSAf8CzwHQ
+        Af8B0AHWAdoB/wGPAVIBMAH/AZUBWgE7Af+IAAHEAbYBogn/AUAB/wEyAf8BQQH/ASwB/wFCAf8BLgH/
+        AUMB2wE0Af8BRAHhATQB/wFFAdIBNwH/AUUBqgE7Af8BRQGwAToB/wFFAZsBPwH/AUcBeQFMCf8ByQG9
+        AaoB/wwAAa8BegFRAf8BogFpAUAB/wHnAesB7gH/A94B/wPbAf8D1wH/A9UB/wPSAf8B1AHZAdsB/wGR
+        AVQBMgH/AZcBXQE9Af+IAAHGAbcBoQn/AXABYQL/AXEBYQL/AXMBYwL/AXQBaAHjAf8BdgFqAegB/wF4
+        AW0B3gH/AXgBcAHCAf8BeAFwAcoB/wF4AXIBqwH/AXsBeQF7Cf8BygG9AaoB/wwAAbIBgAFTAf8BpAFs
+        AUMB/wHyAfYB+QH/A+oB/wPrAf8D7gH/A98B/wPWAf8B1gHbAd4B/wGUAVcBNAH/AaUBawFJAf+IAAHG
+        AbgBoQn/AQIBCgL/AQMBCQL/AQQBCgL/AQUBCwHOAf8BBgELAdQB/wEHAQ0BwQH/AQcBDQGPAf8BBwEN
+        AZwB/wEHAQ0BYwH/AQkBEgEUCf8BzAG+AaoB/wgAAZ4BogGnAf8BtAGBAVEB/wGoAW8BQwH/AewB8AHz
+        Af8D4gH/A+AB/wPcAf8D2QH/AeUB5AHXAf8B4AHkAeAB/wGYAVsBNwH/jAABvwGxAZs5/wHDAbUBnwH/
+        DAABtQGEAVUB/wGoAXEBRAH/Af4D/wP4Af8D+AH/A/kD/wH6Af8BNgE7AeYB/wHHAc4C/wGXAVoBNQH/
+        AZ8BZgFEAf+IAAG+AbABnAH/AcMBuAGtAf8BwwG4Aa0B/wHCAbgBqwH/AcIBuAGqAf8BwQG4AaoB/wHB
+        AbcBqgH/AcEBtgGpAf8BwQG2AagB/wHBAbYBqQH/AcEBtgGpAf8BwgG4AasB/wHDAbkBrAH/AcMBuQGt
+        Af8BxAG6Aa0B/wHCAbQBoAH/CAABtwGJAVkB/wG2AYcBWQH/AasBdQFHFf8B7gHzBv8BmgFfATkB/wGf
+        AWYBQwH/iAABvAGwAZ8B/wHwAeYB3AH/AfAB5gHcAf8B7AHiAdUB/wHrAeAB0wH/AewB4QHTAf8B6wHc
+        Ac8B/wHrAd0BzgH/AesB3QHMAf8B6wHdAc4B/wHrAd8BzwH/Ae0B4AHRAf8B7QHjAdYB/wHtAeQB2wH/
+        Ae8B5wHeAf8BwQG2AaUB/wgAAb0BjgFdAf8BtwGIAVkB/wGzAYUBVgH/AasBdQFIAf8BqAFwAUQB/wGl
+        AW4BQgH/AaMBawFAAf8BoAFoAT4B/wGeAWUBOwH/AZ0BYwE7Af8BoQFqAUUB/wG3AYQBWwH/iAABvgG0
+        AaYB/wHDAbgBrQH/AcMBuAGtAf8BwgG4AasB/wHCAbgBqgH/AcEBuAGqAf8BwQG3AaoB/wHBAbYBqQH/
+        AcEBtgGoAf8BwQG2AakB/wHBAbYBqQH/AcIBuAGrAf8BwwG5AawB/wHDAbkBrQH/AcQBugGtAf8BwQG5
+        AasB/wgAAcEBlAFjAf8BuwGNAV4B/wG4AYoBXAH/AbcBiQFaAf8BtQGGAVgB/wGzAYMBVgH/AbEBfAFU
+        Af8BrwF6AVIB/wGsAXcBUAH/AaoBdwFSAf8BuQGHAV8B//gAAfAB3gHPAf+QAAFCAU0BPgcAAT4DAAEo
+        AwABQAMAARADAAEBAQABAQUAAYAXAAP/AQAC/wHAAQMGAAHAAQMGAAHAAQMGAAHAAQMGAAHAAQMGAAHA
+        AQMGAAHAAQMGAAHAAQMGAAHgAQMGAAHgAQMGAAHAAQcGAAHgAQMGAAHAAQMGAAHAAQMGAAHAAQcEAAP/
+        Ae8EAAs=
+</value>
   </data>
 </root>

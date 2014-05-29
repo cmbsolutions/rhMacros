@@ -25,8 +25,6 @@ Partial Class MacrosUi
         Me.components = New System.ComponentModel.Container()
         Me.tsRhMacrosMenu = New System.Windows.Forms.ToolStrip()
         Me.tsbNewMacro = New System.Windows.Forms.ToolStripButton()
-        Me.tsbEditMacro = New System.Windows.Forms.ToolStripButton()
-        Me.tsbDeleteMacro = New System.Windows.Forms.ToolStripButton()
         Me.tsbSaveMacro = New System.Windows.Forms.ToolStripButton()
         Me.tsbHelp = New System.Windows.Forms.ToolStripButton()
         Me.flpMacros = New System.Windows.Forms.FlowLayoutPanel()
@@ -34,8 +32,9 @@ Partial Class MacrosUi
         Me.cmsMacroButtons = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.EditPropertiesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExecuteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RemoveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DdToolStripMenuItem = New System.Windows.Forms.ToolStripSeparator()
+        Me.RemoveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.tsRhMacrosMenu.SuspendLayout()
         Me.cmsMacroButtons.SuspendLayout()
         Me.SuspendLayout()
@@ -46,7 +45,7 @@ Partial Class MacrosUi
         Me.tsRhMacrosMenu.BackgroundImage = Global.rhMacros.My.Resources.Resources.MenuBarBG
         Me.tsRhMacrosMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.tsRhMacrosMenu.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
-        Me.tsRhMacrosMenu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNewMacro, Me.tsbEditMacro, Me.tsbDeleteMacro, Me.tsbSaveMacro, Me.tsbHelp})
+        Me.tsRhMacrosMenu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNewMacro, Me.ToolStripSeparator1, Me.tsbSaveMacro, Me.tsbHelp})
         Me.tsRhMacrosMenu.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow
         Me.tsRhMacrosMenu.Location = New System.Drawing.Point(0, 0)
         Me.tsRhMacrosMenu.Name = "tsRhMacrosMenu"
@@ -62,26 +61,6 @@ Partial Class MacrosUi
         Me.tsbNewMacro.Text = "New..."
         Me.tsbNewMacro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.tsbNewMacro.ToolTipText = "Create new macro"
-        '
-        'tsbEditMacro
-        '
-        Me.tsbEditMacro.Image = Global.rhMacros.My.Resources.Resources.brick_edit
-        Me.tsbEditMacro.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.tsbEditMacro.Name = "tsbEditMacro"
-        Me.tsbEditMacro.Size = New System.Drawing.Size(40, 35)
-        Me.tsbEditMacro.Text = "Edit..."
-        Me.tsbEditMacro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.tsbEditMacro.ToolTipText = "Edit selected macro"
-        '
-        'tsbDeleteMacro
-        '
-        Me.tsbDeleteMacro.Image = Global.rhMacros.My.Resources.Resources.brick_delete
-        Me.tsbDeleteMacro.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.tsbDeleteMacro.Name = "tsbDeleteMacro"
-        Me.tsbDeleteMacro.Size = New System.Drawing.Size(53, 35)
-        Me.tsbDeleteMacro.Text = "Delete..."
-        Me.tsbDeleteMacro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.tsbDeleteMacro.ToolTipText = "Delete selected macro"
         '
         'tsbSaveMacro
         '
@@ -116,33 +95,38 @@ Partial Class MacrosUi
         '
         Me.cmsMacroButtons.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EditPropertiesToolStripMenuItem, Me.ExecuteToolStripMenuItem, Me.DdToolStripMenuItem, Me.RemoveToolStripMenuItem})
         Me.cmsMacroButtons.Name = "cmsMacroButtons"
-        Me.cmsMacroButtons.Size = New System.Drawing.Size(153, 98)
+        Me.cmsMacroButtons.Size = New System.Drawing.Size(151, 76)
         '
         'EditPropertiesToolStripMenuItem
         '
         Me.EditPropertiesToolStripMenuItem.Image = Global.rhMacros.My.Resources.Resources.brick_edit
         Me.EditPropertiesToolStripMenuItem.Name = "EditPropertiesToolStripMenuItem"
-        Me.EditPropertiesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EditPropertiesToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.EditPropertiesToolStripMenuItem.Text = "Edit properties"
         '
         'ExecuteToolStripMenuItem
         '
         Me.ExecuteToolStripMenuItem.Image = Global.rhMacros.My.Resources.Resources.brick_go
         Me.ExecuteToolStripMenuItem.Name = "ExecuteToolStripMenuItem"
-        Me.ExecuteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ExecuteToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.ExecuteToolStripMenuItem.Text = "Execute"
+        '
+        'DdToolStripMenuItem
+        '
+        Me.DdToolStripMenuItem.Name = "DdToolStripMenuItem"
+        Me.DdToolStripMenuItem.Size = New System.Drawing.Size(147, 6)
         '
         'RemoveToolStripMenuItem
         '
         Me.RemoveToolStripMenuItem.Image = Global.rhMacros.My.Resources.Resources.brick_delete
         Me.RemoveToolStripMenuItem.Name = "RemoveToolStripMenuItem"
-        Me.RemoveToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RemoveToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.RemoveToolStripMenuItem.Text = "Remove"
         '
-        'DdToolStripMenuItem
+        'ToolStripSeparator1
         '
-        Me.DdToolStripMenuItem.Name = "DdToolStripMenuItem"
-        Me.DdToolStripMenuItem.Size = New System.Drawing.Size(149, 6)
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 38)
         '
         'MacrosUi
         '
@@ -162,8 +146,6 @@ Partial Class MacrosUi
     End Sub
     Friend WithEvents tsRhMacrosMenu As System.Windows.Forms.ToolStrip
     Friend WithEvents tsbNewMacro As System.Windows.Forms.ToolStripButton
-    Friend WithEvents tsbEditMacro As System.Windows.Forms.ToolStripButton
-    Friend WithEvents tsbDeleteMacro As System.Windows.Forms.ToolStripButton
     Friend WithEvents tsbSaveMacro As System.Windows.Forms.ToolStripButton
     Friend WithEvents flpMacros As System.Windows.Forms.FlowLayoutPanel
     Friend WithEvents tsbHelp As System.Windows.Forms.ToolStripButton
@@ -173,5 +155,6 @@ Partial Class MacrosUi
     Friend WithEvents ExecuteToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DdToolStripMenuItem As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents RemoveToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
 
 End Class

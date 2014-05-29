@@ -9,11 +9,6 @@ Public Class MacroPropertiesDialog
         Close()
     End Sub
 
-    Private Sub Cancel_Button_Click(ByVal sender As System.Object, ByVal e As EventArgs) Handles Cancel_Button.Click
-        DialogResult = Windows.Forms.DialogResult.Cancel
-        Close()
-    End Sub
-
     Private Sub MacroPropertiesDialog_Load(sender As Object, e As EventArgs) Handles Me.Load
         Try
             If LocalMacro IsNot Nothing Then
