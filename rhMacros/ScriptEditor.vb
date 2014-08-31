@@ -19,7 +19,7 @@ Public Class ScriptEditor
 
     Private Sub ScriptEditor_Load(sender As Object, e As EventArgs) Handles Me.Load
         AutocompleteMenu1.MaximumSize = New Size(650, 200)
-        Dim columnWidth As Integer() = {50, 400, 200}
+        Dim columnWidth As Integer() = {50, 300, 300}
 
         Dim cc As New CodeCompletion.CodeCompletions
         If RhMacrosFileHandler(Of CodeCompletion.CodeCompletions).LoadObject(cc, My.Resources.CodeCompletion) Then

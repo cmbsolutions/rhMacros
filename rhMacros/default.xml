@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MacroCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Macros>
+    <Macro>
+      <Name>mcre13127b0-96df-4997-9b6b-c763d2df9cc5</Name>
+      <Text>Example macro</Text>
+      <Script>M115</Script>
+      <ToolTip>This is an example macro.</ToolTip>
+      <ShowConfirm>true</ShowConfirm>
+      <ConfirmMessage>I am an example message. Press OK to send an example script to the printer or cancel to abort.</ConfirmMessage>
+      <ConfirmButtons>OKCancel</ConfirmButtons>
+      <ConfirmButton>OK</ConfirmButton>
+      <BackColorString>Lime</BackColorString>
+      <ForeColorString>SaddleBrown</ForeColorString>
+    </Macro>
+    <Macro>
+      <Name>mcr7e71d877-05ff-4566-8f6a-4cc41a75e150</Name>
+      <Text>Start Auto bedlevel</Text>
+      <Script>G28
+M114
+G29
+M114
+</Script>
+      <ToolTip>Start the bedleveling procedure</ToolTip>
+      <ShowConfirm>false</ShowConfirm>
+      <ConfirmButtons>OK</ConfirmButtons>
+      <ConfirmButton>None</ConfirmButton>
+      <BackColorString>Black</BackColorString>
+      <ForeColorString>window</ForeColorString>
+    </Macro>
+  </Macros>
+</MacroCollection>

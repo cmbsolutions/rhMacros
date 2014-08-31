@@ -141,8 +141,8 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
-        '''&lt;CodeCompletions xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        '''  Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+        '''&lt;CodeCompletions xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
         '''  &lt;Entries&gt;
         '''    &lt;Entry&gt;
         '''      &lt;Code&gt;G0&lt;/Code&gt;
@@ -156,7 +156,8 @@ Namespace My.Resources
         '''      &lt;IconId&gt;0&lt;/IconId&gt;
         '''    &lt;/Entry&gt;
         '''    &lt;Entry&gt;
-        '''      &lt;Code&gt;G2&lt;/Code&gt;        ''' [rest of string was truncated]&quot;;.
+        '''      &lt;Code&gt;G2&lt;/Code&gt;
+        '''      &lt;Description&gt;ClockWise Arc&lt;/Descriptio [rest of string was truncated]&quot;;.
         '''</summary>
         Friend ReadOnly Property CodeCompletion() As String
             Get

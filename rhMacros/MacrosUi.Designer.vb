@@ -25,6 +25,7 @@ Partial Class MacrosUi
         Me.components = New System.ComponentModel.Container()
         Me.tsRhMacrosMenu = New System.Windows.Forms.ToolStrip()
         Me.tsbNewMacro = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.tsbSaveMacro = New System.Windows.Forms.ToolStripButton()
         Me.tsbHelp = New System.Windows.Forms.ToolStripButton()
         Me.flpMacros = New System.Windows.Forms.FlowLayoutPanel()
@@ -34,7 +35,6 @@ Partial Class MacrosUi
         Me.ExecuteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DdToolStripMenuItem = New System.Windows.Forms.ToolStripSeparator()
         Me.RemoveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.tsRhMacrosMenu.SuspendLayout()
         Me.cmsMacroButtons.SuspendLayout()
         Me.SuspendLayout()
@@ -62,6 +62,11 @@ Partial Class MacrosUi
         Me.tsbNewMacro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.tsbNewMacro.ToolTipText = "Create new macro"
         '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 38)
+        '
         'tsbSaveMacro
         '
         Me.tsbSaveMacro.Image = Global.rhMacros.My.Resources.Resources.disk
@@ -82,6 +87,7 @@ Partial Class MacrosUi
         Me.tsbHelp.Text = "Help..."
         Me.tsbHelp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.tsbHelp.ToolTipText = "Show help"
+        Me.tsbHelp.Visible = False
         '
         'flpMacros
         '
@@ -122,11 +128,6 @@ Partial Class MacrosUi
         Me.RemoveToolStripMenuItem.Name = "RemoveToolStripMenuItem"
         Me.RemoveToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.RemoveToolStripMenuItem.Text = "Remove"
-        '
-        'ToolStripSeparator1
-        '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 38)
         '
         'MacrosUi
         '
